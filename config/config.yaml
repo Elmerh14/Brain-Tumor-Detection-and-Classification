@@ -1,0 +1,14 @@
+environment: kaggle   # change to "local" on your machine
+
+kaggle:
+  input_dir: /kaggle/input/brain-tumor-classification-mri
+  working_dir: /kaggle/working/dataset
+
+local:
+  input_dir: data/raw
+  working_dir: data/processed
+
+image_size: 256
+batch_size: 16
+num_epochs: 15
+learning_rate: 0.0001
