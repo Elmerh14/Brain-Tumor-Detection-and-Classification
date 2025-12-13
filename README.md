@@ -18,6 +18,7 @@ We use the **Brain Tumor Classification (MRI)** dataset from Kaggle:
 
 https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
 
+```
 Dataset structure:
     data/
     ├── Training/
@@ -30,6 +31,7 @@ Dataset structure:
     ├── meningioma_tumor/
     ├── no_tumor/
     └── pituitary_tumor/
+```
 
 ---
 
@@ -56,7 +58,7 @@ Pretrained model weights are available for download:
 
 https://drive.google.com/drive/folders/1DYim2wMTdh1qwMDlxpv-pdnR_KAwLHff?usp=drive_link
 
-Download the `.pt` files and place them in the `runs/` directory to reproduce evaluation and Grad-CAM results without retraining. The csv files are required. If you want to train the model you will get the csv files.
+Download the `.pt` files and place them in the `runs/` directory to reproduce evaluation and Grad-CAM results without retraining. The `runs` directory is not included so make this directroy in the root of the project. The csv files are required. If you want to train the model you will get the csv files.
 
 
 ---
@@ -103,6 +105,7 @@ Grad-CAM is used to visualize which regions of MRI images the model focuses on w
 
 ## Project Structure
 
+```
 Brain-Tumor-Detection-and-Classification/
 ├── src/
 │ ├── dataset.py # Dataset loading and transforms
@@ -125,6 +128,7 @@ Brain-Tumor-Detection-and-Classification/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 ---
 
 ---
